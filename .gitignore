@@ -1,0 +1,49 @@
+# Большие файлы данных
+russian_houses.csv
+dags/russian_houses.csv
+
+# Обработанные данные и результаты
+dags/processed_data.csv
+dags/analysis_summary.csv
+dags/decade_statistics.csv
+dags/max_area_buildings.csv
+dags/min_area_buildings.csv
+dags/top_25_houses.csv
+dags/top_localities.csv
+dags/top_regions.csv
+!dags/main.py
+
+# Sample данные - сохраняем только sample
+sample_data/*
+!sample_data/russian_houses_sample.csv
+!sample_data/.gitkeep
+
+# Логи
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes data
+postgres-db-volume/
